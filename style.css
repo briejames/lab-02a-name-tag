@@ -1,25 +1,20 @@
 .nametag {
   background-color: red;
+  color:white
 }
 
 * {
   box-sizing: border-box;
 }
 
-h1 {
+middle {
+  position: relative;
   color: white;
   text-align: center;
   border-style: solid;
-  border-top-left-radius: 10px 5px 10px 5px; 
-  margin: 10px 5px 10px 5px;
-  padding: 10px 5px 10px 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
-div {
+bottom {
   color: white;
   text-align: center;
   border-style: solid;
@@ -27,7 +22,18 @@ div {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position:relative
+  margin: 0 auto 
 }
+  
+ .box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
 
 p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -38,6 +44,7 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: auto;
 }
 
 body, html {
@@ -45,7 +52,5 @@ body, html {
   height: 50%;
   padding: 50;
   margin: 500;
-  
-section {
-
+  margin: auto;
 }
