@@ -7,14 +7,14 @@
   box-sizing: border-box;
 }
 
-middle {
+.middle {
   position: relative;
   color: white;
   text-align: center;
   border-style: solid;
 }
 
-bottom {
+.bottom {
   color: white;
   text-align: center;
   border-style: solid;
@@ -24,6 +24,7 @@ bottom {
   flex-direction: column;
   position:relative
   margin: 0 auto 
+  font-size: 1.2rem;
 }
   
  .box {
